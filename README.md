@@ -7,15 +7,15 @@
 
 ### step1 引入插件
 
-'''javascript
+``` javascript
 
 <script src="js/cssDraw.js"></script>
 
-'''
+```
 
 ### step2 创建对象
 
-'''javascript
+``` javascript
     var src='img/1.png',
         drawWidth=600,
         drawHeight=300;
@@ -29,8 +29,8 @@
      * drawHeight:css画出来的图片的高度，缺省值是源图片的高度
      */
 
-'''
-不要创建太大的，否则卡死！！！还在优化中。。。（ 忧 伤 还不知道咋优化 希望有人能给点建议 ）
+```
+不要创建太大的，否则卡死！！！还在优化中。。。尽量用小图片试一下吧（ 忧 伤 还不知道咋优化 希望有人能给点建议 ）
 
 ### step3 把样式复制过去
 
